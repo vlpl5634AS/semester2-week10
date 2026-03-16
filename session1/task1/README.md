@@ -1,4 +1,4 @@
-# Task 1
+# Task 1: Timing of Programs
 
 This task involves timing the execution of various programs using the Linux
 `time` utility.

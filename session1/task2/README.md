@@ -1,4 +1,4 @@
-# Task 2
+# Task 2: Benchmarking Python & C
 
 ## Bubble Sort
 
