@@ -24,6 +24,23 @@ void bubble_sort(int* data, int size)
 {
     // TODO: implement the bubble sort algorithm
     // (Use bubblesort.py as your guide)
+    bool swapped;
+    for (int i = 0; i < size - 1; ++i) {
+        swapped = false;
+        for (int j = 0; j < size - i - 1; ++j) {
+            if (data[j] > data[j + 1]) {
+                // Swap data[j] and data[j + 1]
+                int temp = data[j];
+                data[j] = data[j + 1];
+                data[j + 1] = temp;
+                swapped = true;
+            }
+        }
+        // If no two elements were swapped, the array is already sorted
+        if (!swapped) {
+            break;
+        }
+    }
 }
 
 
